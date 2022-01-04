@@ -14,6 +14,13 @@ public class Main {
         mensagem.saudacao(15);
         mensagem.saudacao(18);
 
+        System.out.println("____________________________________");
+        System.out.println("Empréstimo");
+        Emprestimo emprestimo = new Emprestimo();
+        emprestimo.solicitarEmprestimo(10000 , 10 );
+        emprestimo.solicitarEmprestimo(10000 , 12 );
+        emprestimo.solicitarEmprestimo(10000 , 5 );
+
     }
 
 
