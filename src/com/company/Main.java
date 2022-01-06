@@ -21,6 +21,12 @@ public class Main {
         emprestimo.solicitarEmprestimo(10000 , 12 );
         emprestimo.solicitarEmprestimo(10000 , 5 );
 
+        System.out.println("____________________________________");
+        System.out.println("quadrilátero");
+        Quadrilatero area = new Quadrilatero();
+        area.area(3);
+        area.area(5,5);
+        area.area(8,7,9);
     }
 
 
